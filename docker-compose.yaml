@@ -1,0 +1,13 @@
+version: '3'
+
+services: 
+    telegram_botti:
+        image: levinol/botti:1
+        environment: 
+            TOKEN: TOKEN
+        
+
+    hb_model:
+        image: levinol/gpt3:1
+        ports: 
+            - 1240
